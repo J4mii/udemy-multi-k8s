@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          imagePullPolicy: Never
-          image: stephengrider/multi-client
+          image: jkankaanpaa/multi-client
           ports:
             - containerPort: 3000
           resources:

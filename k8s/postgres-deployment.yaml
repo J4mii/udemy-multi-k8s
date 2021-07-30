@@ -18,7 +18,6 @@ spec:
             claimName: database-persistent-volume-claim
       containers:
         - name: postgres
-          imagePullPolicy: Never
           image: postgres
           env:
             - name: POSTGRES_PASSWORD

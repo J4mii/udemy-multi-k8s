@@ -14,8 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          imagePullPolicy: Never
-          image: stephengrider/multi-worker
+          image: jkankaanpaa/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
